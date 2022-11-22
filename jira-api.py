@@ -8,7 +8,7 @@ from getTokenAWS import parameter_store as ps
 
 class jiraCall:
    def __init__(self,token):
-        self.apiurl = 'https://spikefishsolutions.atlassian.net/rest/api/2/' 
+        self.apiurl = 'https://somecompany.atlassian.net/rest/api/2/' 
         self.headers = {
             "Content-type": "application/json",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0",
